@@ -1,7 +1,7 @@
 # Face-Data-Creation
 This repository provides the tools necessary to create face-data from videos and images. It can download videos from Youtube, extract facial images at a defined frame rate, and prepare images for StyleGAN applications.
 
-![Project Workflow](https://i.imgur.com/fjY6jFV.gif)
+![Project Workflow]([https://i.imgur.com/fjY6jFV.gif](https://imgur.com/fjY6jFV))
 
 ## Notebooks
 
