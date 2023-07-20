@@ -1,40 +1,42 @@
-# face-data-creation
+# Face-Data-Creation
+This repository provides the tools necessary to create face-data from videos and images. It can download videos from Youtube, extract facial images at a defined frame rate, and prepare images for StyleGAN applications.
 
-Create face-data from videos and images
-
-![Project gif](https://imgur.com/fjY6jFV)
+![Project Workflow](https://i.imgur.com/fjY6jFV.gif)
 
 ## Notebooks
 
-The `DownloadVideos.ipynb` provides code to download videos from YouTube and then extract facial images from them at N number of frames. You can also use this Google Colab notebook [here](https://colab.research.google.com/drive/1NLgZPKEjmmntgujIl5TtMA_tFeQolBKl?usp=drive_link) to create facial image data on Google Colab.
+1. **DownloadVideos.ipynb:** This notebook contains code to download videos from Youtube and extract facial images from them at a specified frame rate. 
 
-The `Eye_Center_Images.ipynb` provides code to extract face images and prepare images for any StyleGAN future image work. You can also use this Google Colab notebook [here](https://colab.research.google.com/drive/1t_8N1MT2Zt_hfrGCWJsX76caxhIDy1V_?usp=drive_link).
+    You can also use this Google Colab notebook for the same purpose: [DownloadVideos.ipynb](https://colab.research.google.com/drive/1NLgZPKEjmmntgujIl5TtMA_tFeQolBKl?usp=drive_link)
+    
+2. **Eye_Center_Images.ipynb:** This notebook provides code to extract faces images and prepare them for any future StyleGAN related work.
 
-Using these two notebooks and filtering images manually, 4483 high-quality 1024x1024 Kpop Girl Group Idol face images have been downloaded which you can access [here](https://www.kaggle.com/datasets/rossellison/kpop-idol-faces).
+    Alternatively, use this Google Colab notebook: [Eye_Center_Images.ipynb](https://colab.research.google.com/drive/1t_8N1MT2Zt_hfrGCWJsX76caxhIDy1V_?usp=drive_link)
 
-A model was trained on these faces using [this repository](https://github.com/PDillis/stylegan3-fun) to create more faces. The .pkl file generated can be downloaded [here](https://drive.google.com/file/d/1Nd-0AFpDG_RMkfKC-uohVz9YpBsEj2QB/view?usp=sharing).
+## Data
+With these two notebooks and manual filtering, we have downloaded 4483 high-quality 1024x1024 Kpop Girl Group Idol face images which can be accessed here: [Kpop Idol Faces](https://www.kaggle.com/datasets/rossellison/kpop-idol-faces)
 
-Here is an example of some non-existent Kpop faces: ![Kpop faces](https://imgur.com/jBlfZtM)
+## Model
+Using the [stylegan3-fun](https://github.com/PDillis/stylegan3-fun) repository, a model was trained on these faces to create more. You can download the .pkl file generated here: [Download .pkl file](https://drive.google.com/file/d/1Nd-0AFpDG_RMkfKC-uohVz9YpBsEj2QB/view?usp=sharing)
 
-And here is a video: https://www.youtube.com/watch?v=lNuxvZI3syM
+Here are examples of some non-existent Kpop faces: ![Kpop Faces](https://i.imgur.com/jBlfZtM.png)
 
-And here is a tutorial on how to do all of this and more: (coming soon)
+Watch the process in this video: [YouTube video](https://www.youtube.com/watch?v=lNuxvZI3syM)
 
-## Cool Things
+## Tutorial
+A detailed tutorial on how to use these resources is in progress and will be linked here soon!
 
-Some cool things you can do:
-- Combining Blackpink member faces: ![Blackpink faces](https://imgur.com/a/qTTGhLB)
-- Project yourself into Kpop Girl Group Latent Space: ![Project](https://imgur.com/s5nZLEZ)
-- Comparing this model with the FFHQ model from NVIDIA: ffhq vs kpopGG.pkl: ![Comparison](https://imgur.com/xHFJ794)
+## Cool Results
+- Combine faces of Blackpink members: ![Blackpink Faces](https://imgur.com/a/qTTGhLB)
 
-## Future Work
+- Project yourself into Kpop Girl Group Latent Space: ![Latent Space Projection](https://imgur.com/s5nZLEZ)
 
-To do: 
-- Curate images better, remove low quality or blurry images, very similar images or duplicates, and retrain model.
-- Add new images from a more variety of sources
-- Add Boy Group images
+- Compare this model with the FFHQ model from NVIDIA: ![FFHQ vs kpopGG.pkl](https://imgur.com/xHFJ794)
+
+## To-do
+- Curate images better: remove low-quality or blurry images, very similar images, or duplicates, and retrain the model.
+- Add new images from a wider variety of sources.
+- Add Boy Group images.
 
 ## Acknowledgements
-
-Thank yous and acknowledgements:
-Note I used the FFHQ model to transfer learn from originally so I am incredibly thankful for NVIDIA for releasing StyleGAN and the trained models as well as PDillis for his StyleGAN3-fun repo as well as jeffheaton for code and his YouTube videos which showed me about this technology.
+Special thanks to NVIDIA for releasing the FFHQ model and StyleGAN, to PDillis for his stylegan3-fun repository, and to jeffheaton for his insightful code and YouTube videos. These resources were invaluable in making this project possible.
