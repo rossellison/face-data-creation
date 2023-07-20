@@ -39,5 +39,7 @@ A detailed tutorial on how to use these resources is in progress and will be lin
 - Add new images from a wider variety of sources.
 - Add Boy Group images.
 
+Share any help or work you've done would love to see it!
+
 ## Acknowledgements
 Special thanks to NVIDIA for releasing the FFHQ model and StyleGAN, to PDillis for his stylegan3-fun repository, and to jeffheaton for his insightful code and YouTube videos. These resources were invaluable in making this project possible.
