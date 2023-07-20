@@ -26,6 +26,8 @@ Here are some upscaled from the 1024x1024 generated images: [Upscaled Generated 
 
 Video smoothly transitioning through generated faces: [YouTube video](https://www.youtube.com/watch?v=lNuxvZI3syM)
 
+The notebook used to train the stylegan model: [Google Collab](https://colab.research.google.com/drive/1YQJY-xx7kcmRgo9Rcre_a3gfnT9fpc2z?usp=sharing)
+
 ## Tutorial
 A detailed tutorial on how to use these resources is in progress and will be linked here soon!
 
