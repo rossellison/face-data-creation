@@ -29,7 +29,7 @@ Video smoothly transitioning through generated faces: [YouTube video](https://ww
 The notebook used to train the stylegan model: [Google Collab](https://colab.research.google.com/drive/1YQJY-xx7kcmRgo9Rcre_a3gfnT9fpc2z?usp=sharing)
 
 ## Tutorial
-A detailed tutorial on how to use these resources is in progress and will be linked here soon!
+A detailed tutorial on setup and code: [Youtube video](https://www.youtube.com/watch?v=3oqSJHWLuXs)
 
 ## Cool Results
 - Combine faces of Blackpink members: [Blackpink Faces](https://imgur.com/a/qTTGhLB)
