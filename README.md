@@ -26,12 +26,7 @@ Generate some faces for yourself using the model on HuggingFace: [HuggingFace](h
 
 Here are some upscaled from the 1024x1024 generated images: [Upscaled Generated Images](https://imgur.com/a/iPYLCYe)
 
-Video smoothly transitioning through generated faces: [YouTube video](https://www.youtube.com/watch?v=lNuxvZI3syM)
-
 The notebook used to train the stylegan model: [Google Collab](https://colab.research.google.com/drive/1YQJY-xx7kcmRgo9Rcre_a3gfnT9fpc2z?usp=sharing)
-
-## Tutorial
-A detailed tutorial on setup and code: [Youtube video](https://www.youtube.com/watch?v=3oqSJHWLuXs)
 
 ## Cool Results
 - Combine faces of Blackpink members: [Blackpink Faces](https://imgur.com/Xho0rVt)
